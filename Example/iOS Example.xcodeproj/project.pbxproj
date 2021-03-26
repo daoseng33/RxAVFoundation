@@ -142,7 +142,7 @@
 			);
 			mainGroup = 40547DF21CB0787D000F5383;
 			packageReferences = (
-				CD106F592525AF48002D44AC /* XCRemoteSwiftPackageReference "RxAVFoundation" */,
+				CD106F592525AF48002D44AC /* XCRemoteSwiftPackageReference "." */,
 			);
 			productRefGroup = 40547DFC1CB0787D000F5383 /* Products */;
 			projectDirPath = "";
@@ -346,12 +346,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CD106F592525AF48002D44AC /* XCRemoteSwiftPackageReference "RxAVFoundation" */ = {
+		CD106F592525AF48002D44AC /* XCRemoteSwiftPackageReference "." */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "../";
+			repositoryURL = ../;
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -359,7 +359,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		CD106F5A2525AF48002D44AC /* RxAVFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CD106F592525AF48002D44AC /* XCRemoteSwiftPackageReference "RxAVFoundation" */;
+			package = CD106F592525AF48002D44AC /* XCRemoteSwiftPackageReference "." */;
 			productName = RxAVFoundation;
 		};
 /* End XCSwiftPackageProductDependency section */
